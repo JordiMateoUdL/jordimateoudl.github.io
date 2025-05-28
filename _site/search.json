@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Personal Blog",
+    "section": "",
+    "text": "I’m Dr Jordi Mateo Fornés, a Lecturer in Computer Science at the University of Lleida (UdL), specializing in Cloud Architecture and Services. I hold a PhD in Cloud Computing, and my work explores methods, paradigms, and solutions for distributed computing environments. I earned my B.S. (2012) and M.S. (2013) in Computer Science from the Escola Politècnica Superior (EPS) at the Universitat de Lleida, where I continue to teach and conduct research.\nMy research spans various domains, including Distributed Systems (Cloud, Fog, Edge, IoT) and High-Performance Computing. Building on these foundational areas, my work also involves knowledge transfer to decision support systems and distributed intelligence in Healthcare, Agriculture, and Energy domains.\nIn my teaching role, I deliver undergraduate courses in Operating Systems and System Administration. These courses provide the theoretical underpinnings and practical competencies to understand and work with modern distributed computing environments. These courses form the backbone of all computing infrastructures, from embedded edge devices to large-scale cloud platforms. Advancements such as kernel optimisation, virtualisation, containerisation, and lightweight architectures are fundamental for achieving performance, scalability, or resilience in the distributed systems. Additionally, I supervise both undergraduate and master’s theses, assisting students in navigating their research projects and developing strong, practical skills in computer science.\nAs an advocate for open-source technologies, I actively promote their use in research and education. Through this blog, I share insights on emerging trends in computer science, along with reflections from my research, teaching, and professional experiences.\nThank you for visiting!"
+  }
+]

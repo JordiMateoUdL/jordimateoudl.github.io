@@ -1,0 +1,29 @@
+---
+title: "Welcome to My Personal Blog"
+image: "assets/images/profile/prof_pic.jpg"
+about:
+  template: solana
+  links:
+    - icon: github
+      text: "GitHub"
+      url: https:github.com/jordimateoudl
+    - text: "{{< ai orcid >}} ORCID" 
+      href: https://orcid.org/0000-0002-1660-0380
+      target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=EBfb70wAAAAJ&hl=ca
+      target: _blank
+    - text: "{{< ai researchgate >}} Research Gate"
+      href: https://www.researchgate.net/profile/Jordi-Mateo-Fornes?ev=hdr_xprf
+      target: _blank  
+---
+
+I'm Dr Jordi Mateo Fornés, a Lecturer in Computer Science at the [University of Lleida (UdL)](https://www.udl.cat/), specializing in Cloud Architecture and Services. I hold a PhD in Cloud Computing, and my work explores methods, paradigms, and solutions for distributed computing environments. I earned my B.S. (2012) and M.S. (2013) in Computer Science from the [Escola Politècnica Superior (EPS)](https://www.eps.udl.cat/) at the Universitat de Lleida, where I continue to teach and conduct research.
+
+My research spans various domains, including **Distributed Systems** (*Cloud, Fog, Edge, IoT*) and **High-Performance Computing**. Building on these foundational areas, my work also involves knowledge transfer to *decision support systems* and *distributed intelligence* in **Healthcare**, **Agriculture**, and **Energy** domains.
+
+In my teaching role, I deliver undergraduate courses in **Operating Systems** and **System Administration**. These courses provide the theoretical underpinnings and practical competencies to understand and work with modern distributed computing environments. These courses form the backbone of all computing infrastructures, from embedded edge devices to large-scale cloud platforms. Advancements such as *kernel optimisation*, *virtualisation*, *containerisation*, and *lightweight architectures* are fundamental for achieving performance, scalability, or resilience in the distributed systems.  Additionally, I supervise both undergraduate and master's theses, assisting students in navigating their research projects and developing strong, practical skills in computer science.
+
+As an advocate for **open-source** technologies, I actively promote their use in research and education. Through this blog, I share insights on emerging trends in computer science, along with reflections from my research, teaching, and professional experiences.
+
+Thank you for visiting!
