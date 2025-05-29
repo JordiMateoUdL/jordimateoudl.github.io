@@ -8,6 +8,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - text: Research
+        menu:
+        - href: research/research-lines.qmd
+          text: Research Lines
 
 format:
   html:

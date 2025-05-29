@@ -1,0 +1,15 @@
+---
+title: Research Lines
+listing:
+  - id: research-lines
+    contents: "./lines/*.qmd" 
+    type: table
+    fields: [title, description]
+    sort-ui: false
+    filter-ui: false
+format: 
+  html:
+    theme: [light, dark] 
+    toc: false 
+---
+

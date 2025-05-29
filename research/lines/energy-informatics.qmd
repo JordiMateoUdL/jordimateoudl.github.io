@@ -1,0 +1,73 @@
+---
+title: "Energy Informatics"
+description: "Research line on distributed computing and power systems engineering, focusing on resilience, scalability, and flexible markets."
+keywords: [energy informatics, distributed computing, power systems, resilience, scalability, flexible markets]
+image: "../../assets/images/research/energy-informatics/context.png"
+---
+
+## Introduction and Motivation
+
+The electric power grid field is undergoing a profound transformation driven by two interconnected trends:
+
+1. **Increasing uncertainty**, driven by the high penetration of intermittent *renewable energy sources (RES)*, such as *solar* and *wind*.
+2. **Decentralization** of energy production, control, and decision-making, enabled by the adoption of *distributed energy resources (DERs)*, battery storage systems, and electric vehicles (EVs).
+
+These trends challenge traditional centralized grid paradigms, which are not suitable to handle the growing complexity, variability, and scale of modern power systems. As a result, there is a need for novel computational and architectural approaches that support real-time, scalable, and intelligent decision-making. Hence, this research line integrates **distributed continuum computing** with modern **power systems engineering** to address critical challenges in three interrelated areas:
+
+- **Resilience**: Ensuring robustness against unpredictable failures and maintaining operational continuity in the presence of uncertainty and volatility. The focus is on *how continuum architectures can prevent or contain cascading failures in distributed power grids*.
+
+- **Scalability**: Managing real-time coordination and optimization of millions of heterogeneous DERs and controllable loads. The research explores *whether graph neural networks (GNNs) or physics-informed neural networks (PINNs) can provide faster, more scalable alternatives to traditional optimization solvers*.
+
+- **Flexible markets**: Adapting to rapidly changing grid conditions and enabling dynamic participation of consumers and prosumers in energy markets. The research aims to investigate *what mechanisms are needed to support flexible, real-time electricity markets*.
+
+These pillars are not **isolated**; they form a mutually reinforcing foundation for a future grid that is **resilient**, **scalable**, and  **responsive**. Hence, to support the development and validation of such architectures, the research also targets *kernel- and middleware-level innovations* for large-scale, distributed power system simulation. These tools will be essential for evaluating new algorithms, control schemes, and market mechanisms under realistic scenarios.
+
+![Energy Informatics Research Line](../../assets/images/research/energy-informatics/context.png)
+
+## Team
+The research line is coordinated by the **Distributed Computing Research Group** at the University of Lleida (UdL) in Spain, in collaboration with the **University of South-Eastern Norway (USN)**. The team includes:
+
+- **Dr. Sambeet Mishra** (USN) - Expert in power systems.
+- **Dr. Jordi Mateo** (UdL) - Specialist in distributed computing.
+
+## Activities & Collaborations
+
+There is an established inter-disciplinary collaboration between the research groups, members of the groups including PhD candidates for mobility, research visits and joint national and international projects.
+
+### Finalised Projects
+
+- **P-CoMG: Parallel Decision Support for Power Networks**. This was a TFG (Final Degree Project) at the University of Lleida (UdL) in the Distributed Computing Research Group, supervised by Dr. Sambeet Mishra from the University of South-Eastern Norway (USN) and Dr. Jordi Mateo from UdL. The project focused on developing a new parallel decision support system to assist decisions in power networks.
+
+### Research Visits
+
+- **Sergi Lopez**, a Lecturer from the University of Lleida (UdL) and member of the Distributed Computing Research Group, visited the University of South-Eastern Norway (USN) for a period of 3 months during his PhD studies in summer 2024. The aim of the visit was to develop oracles for bid validation in local energy markets using various consensus mechanisms. His works includes a comparative study of public-private cross-chain consensus strategies between Local Energy Markets (LEMs) and Distribution System Operators (DSOs).
+
+### Ongoing Projects
+
+- **Graph Neural Networks (GNNs) for Power Systems**. This thesis project, focuses on developing GNNs to replace traditional power flow solvers. The goal is to create a model that can learn from historical data and adapt to dynamic conditions, providing accurate and real-time predictions for power flow analysis. 
+
+
+### Open Research Projects
+
+- **Dynamic Time Aggregation for Optimal Expansion Planning Problems in Power Systems**. This project aims to develop methods for dynamic time aggregation to optimize expansion planning in power systems, addressing the challenges posed by increasing uncertainty and decentralization.
+  
+- **Spatio-temporal Mapping of City Dynamics and Data Analytics of Energy Consumption, Weather, and Transportation**. This project focuses on analyzing the interplay between urban dynamics, energy consumption patterns, weather conditions, and transportation systems to inform better decision-making in energy management.
+
+### Workshops and Seminars
+
+- **2025 University of Lleida (UdL) Workshop on Distributed Computing and Power Systems**: Workshop between the *Distributed Computing Research Group at UdL* and the *University of South-Eastern Norway (USN)* to discuss ongoing research, share findings, and explore future collaborations in distributed computing and power systems. The workshop was held in Lleida, Spain, on January 2025. 
+
+    ![](../../assets/images/research/energy-informatics/workshops/2025-udl-workshop.jpeg)
+
+
+## Background & Publications
+
+- Mishra, S., et al. (2022). *Smart contract formation enabling energy-as-a-service in a virtual power plant*. *Int. J. Energy Research*, 46(3), 3272–3294.  
+- Mishra, S., et al. (2019). *Reliability framework for power network assessment.*
+  
+## Github Repositories 
+
+- [Graph-Neural-Network](https://github.com/TE9000-OPF-GNN/Graph-Neural-Networks)  
+- [Power-flow-analysis](https://github.com/TE9000-OPF-GNN/Power-flow-analysis)  
+- [TE9000_OPF_GNN_book](https://github.com/TE9000-OPF-GNN/TE9000_OPF_GNN_book)  
+
