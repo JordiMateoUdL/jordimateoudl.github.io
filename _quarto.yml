@@ -12,6 +12,8 @@ website:
         menu:
         - href: research/research-lines.qmd
           text: Research Lines
+        - href: research/thesis.qmd
+          text: Thesis
 
 format:
   html:

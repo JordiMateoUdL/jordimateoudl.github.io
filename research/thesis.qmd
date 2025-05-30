@@ -1,0 +1,14 @@
+---
+title: Thesis
+listing:
+  - id: thesis
+    contents: "./thesis/*.qmd" 
+    type: grid
+    fields: [title, author, supervisor, status, image]
+    sort-ui: false
+    filter-ui: false
+format: 
+  html:
+    theme: [light, dark] 
+    toc: false 
+---

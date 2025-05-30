@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="keywords" content="energy informatics, distributed computing, power systems, resilience, scalability, flexible markets">
-<meta name="description" content="Research line on distributed computing and power systems engineering, focusing on resilience, scalability, and flexible markets.">
 
-<title>Energy Informatics – Mat4Jordi</title>
+<title>Thesis – Mat4Jordi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -69,12 +69,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-thesis .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-supervisor','listing-status','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-thesis'] = new List('listing-thesis', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,10 +153,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../research/research_lines.qmd"> 
-<span class="menu-text">Research Lines</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../research/research-lines.html">
+ <span class="dropdown-text">Research Lines</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../research/thesis.html">
+ <span class="dropdown-text">Thesis</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -110,39 +179,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction-and-motivation" id="toc-introduction-and-motivation" class="nav-link active" data-scroll-target="#introduction-and-motivation">Introduction and Motivation</a></li>
-  <li><a href="#team" id="toc-team" class="nav-link" data-scroll-target="#team">Team</a></li>
-  <li><a href="#activities-collaborations" id="toc-activities-collaborations" class="nav-link" data-scroll-target="#activities-collaborations">Activities &amp; Collaborations</a>
-  <ul class="collapse">
-  <li><a href="#finalised-projects" id="toc-finalised-projects" class="nav-link" data-scroll-target="#finalised-projects">Finalised Projects</a></li>
-  <li><a href="#research-visits" id="toc-research-visits" class="nav-link" data-scroll-target="#research-visits">Research Visits</a></li>
-  <li><a href="#ongoing-projects" id="toc-ongoing-projects" class="nav-link" data-scroll-target="#ongoing-projects">Ongoing Projects</a></li>
-  <li><a href="#open-research-projects" id="toc-open-research-projects" class="nav-link" data-scroll-target="#open-research-projects">Open Research Projects</a></li>
-  <li><a href="#workshops-and-seminars" id="toc-workshops-and-seminars" class="nav-link" data-scroll-target="#workshops-and-seminars">Workshops and Seminars</a></li>
-  </ul></li>
-  <li><a href="#background-publications" id="toc-background-publications" class="nav-link" data-scroll-target="#background-publications">Background &amp; Publications</a></li>
-  <li><a href="#github-repositories" id="toc-github-repositories" class="nav-link" data-scroll-target="#github-repositories">Github Repositories</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Energy Informatics</h1>
+<h1 class="title">Thesis</h1>
 </div>
 
-<div>
-  <div class="description">
-    Research line on distributed computing and power systems engineering, focusing on resilience, scalability, and flexible markets.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -153,103 +198,58 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-<div>
-  <div class="keywords">
-    <div class="block-title">Keywords</div>
-    <p>energy informatics, distributed computing, power systems, resilience, scalability, flexible markets</p>
-  </div>
-</div>
 
 </header>
 
 
-<section id="introduction-and-motivation" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-and-motivation">Introduction and Motivation</h2>
-<p>The electric power grid field is undergoing a profound transformation driven by two interconnected trends:</p>
-<ol type="1">
-<li><strong>Increasing uncertainty</strong>, driven by the high penetration of intermittent <em>renewable energy sources (RES)</em>, such as <em>solar</em> and <em>wind</em>.</li>
-<li><strong>Decentralization</strong> of energy production, control, and decision-making, enabled by the adoption of <em>distributed energy resources (DERs)</em>, battery storage systems, and electric vehicles (EVs).</li>
-</ol>
-<p>These trends challenge traditional centralized grid paradigms, which are not suitable to handle the growing complexity, variability, and scale of modern power systems. As a result, there is a need for novel computational and architectural approaches that support real-time, scalable, and intelligent decision-making. Hence, this research line integrates <strong>distributed continuum computing</strong> with modern <strong>power systems engineering</strong> to address critical challenges in three interrelated areas:</p>
-<ul>
-<li><p><strong>Resilience</strong>: Ensuring robustness against unpredictable failures and maintaining operational continuity in the presence of uncertainty and volatility. The focus is on <em>how continuum architectures can prevent or contain cascading failures in distributed power grids</em>.</p></li>
-<li><p><strong>Scalability</strong>: Managing real-time coordination and optimization of millions of heterogeneous DERs and controllable loads. The research explores <em>whether graph neural networks (GNNs) or physics-informed neural networks (PINNs) can provide faster, more scalable alternatives to traditional optimization solvers</em>.</p></li>
-<li><p><strong>Flexible markets</strong>: Adapting to rapidly changing grid conditions and enabling dynamic participation of consumers and prosumers in energy markets. The research aims to investigate <em>what mechanisms are needed to support flexible, real-time electricity markets</em>.</p></li>
-</ul>
-<p>These pillars are not <strong>isolated</strong>; they form a mutually reinforcing foundation for a future grid that is <strong>resilient</strong>, <strong>scalable</strong>, and <strong>responsive</strong>. Hence, to support the development and validation of such architectures, the research also targets <em>kernel- and middleware-level innovations</em> for large-scale, distributed power system simulation. These tools will be essential for evaluating new algorithms, control schemes, and market mechanisms under realistic scenarios.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../assets/images/research/energy-informatics/context.png" class="img-fluid figure-img"></p>
-<figcaption>Energy Informatics Research Line</figcaption>
-</figure>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-thesis">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1553814000000" data-listing-file-modified-sort="1748601403819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="707">
+<a href="../research/thesis/jordi-mateo.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../assets/images/research/thesis/jordi-mateo/front_thesis.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cloud systems and HPC as a service of agroindustry
+</h5>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Jordi Mateo Fornés
 </div>
-</section>
-<section id="team" class="level2">
-<h2 class="anchored" data-anchor-id="team">Team</h2>
-<p>The research line is coordinated by the <strong>Distributed Computing Research Group</strong> at the University of Lleida (UdL) in Spain, in collaboration with the <strong>University of South-Eastern Norway (USN)</strong>. The team includes:</p>
-<ul>
-<li><strong>Dr.&nbsp;Sambeet Mishra</strong> (USN) - Expert in power systems.</li>
-<li><strong>Dr.&nbsp;Jordi Mateo</strong> (UdL) - Specialist in distributed computing.</li>
-</ul>
-</section>
-<section id="activities-collaborations" class="level2">
-<h2 class="anchored" data-anchor-id="activities-collaborations">Activities &amp; Collaborations</h2>
-<p>There is an established inter-disciplinary collaboration between the research groups, members of the groups including PhD candidates for mobility, research visits and joint national and international projects.</p>
-<section id="finalised-projects" class="level3">
-<h3 class="anchored" data-anchor-id="finalised-projects">Finalised Projects</h3>
-<ul>
-<li><strong>P-CoMG: Parallel Decision Support for Power Networks</strong>. This was a TFG (Final Degree Project) at the University of Lleida (UdL) in the Distributed Computing Research Group, supervised by Dr.&nbsp;Sambeet Mishra from the University of South-Eastern Norway (USN) and Dr.&nbsp;Jordi Mateo from UdL. The project focused on developing a new parallel decision support system to assist decisions in power networks.</li>
-</ul>
-</section>
-<section id="research-visits" class="level3">
-<h3 class="anchored" data-anchor-id="research-visits">Research Visits</h3>
-<ul>
-<li><strong>Sergi Lopez</strong>, a Lecturer from the University of Lleida (UdL) and member of the Distributed Computing Research Group, visited the University of South-Eastern Norway (USN) for a period of 3 months during his PhD studies in summer 2024. The aim of the visit was to develop oracles for bid validation in local energy markets using various consensus mechanisms. His works includes a comparative study of public-private cross-chain consensus strategies between Local Energy Markets (LEMs) and Distribution System Operators (DSOs).</li>
-</ul>
-</section>
-<section id="ongoing-projects" class="level3">
-<h3 class="anchored" data-anchor-id="ongoing-projects">Ongoing Projects</h3>
-<ul>
-<li><strong>Graph Neural Networks (GNNs) for Power Systems</strong>. This thesis project, focuses on developing GNNs to replace traditional power flow solvers. The goal is to create a model that can learn from historical data and adapt to dynamic conditions, providing accurate and real-time predictions for power flow analysis.</li>
-</ul>
-</section>
-<section id="open-research-projects" class="level3">
-<h3 class="anchored" data-anchor-id="open-research-projects">Open Research Projects</h3>
-<ul>
-<li><p><strong>Dynamic Time Aggregation for Optimal Expansion Planning Problems in Power Systems</strong>. This project aims to develop methods for dynamic time aggregation to optimize expansion planning in power systems, addressing the challenges posed by increasing uncertainty and decentralization.</p></li>
-<li><p><strong>Spatio-temporal Mapping of City Dynamics and Data Analytics of Energy Consumption, Weather, and Transportation</strong>. This project focuses on analyzing the interplay between urban dynamics, energy consumption patterns, weather conditions, and transportation systems to inform better decision-making in energy management.</p></li>
-</ul>
-</section>
-<section id="workshops-and-seminars" class="level3">
-<h3 class="anchored" data-anchor-id="workshops-and-seminars">Workshops and Seminars</h3>
-<ul>
-<li><p><strong>2025 University of Lleida (UdL) Workshop on Distributed Computing and Power Systems</strong>: Workshop between the <em>Distributed Computing Research Group at UdL</em> and the <em>University of South-Eastern Norway (USN)</em> to discuss ongoing research, share findings, and explore future collaborations in distributed computing and power systems. The workshop was held in Lleida, Spain, on January 2025.</p>
-<p><img src="../assets/images/research/energy-informatics/workshops/2025-udl-workshop.jpeg" class="img-fluid"></p></li>
-</ul>
-</section>
-</section>
-<section id="background-publications" class="level2">
-<h2 class="anchored" data-anchor-id="background-publications">Background &amp; Publications</h2>
-<ul>
-<li>Mishra, S., et al.&nbsp;(2022). <em>Smart contract formation enabling energy-as-a-service in a virtual power plant</em>. <em>Int. J. Energy Research</em>, 46(3), 3272–3294.<br>
-</li>
-<li>Mishra, S., et al.&nbsp;(2019). <em>Reliability framework for power network assessment.</em></li>
-</ul>
-</section>
-<section id="github-repositories" class="level2">
-<h2 class="anchored" data-anchor-id="github-repositories">Github Repositories</h2>
-<ul>
-<li><a href="https://github.com/TE9000-OPF-GNN/Graph-Neural-Networks">Graph-Neural-Network</a><br>
-</li>
-<li><a href="https://github.com/TE9000-OPF-GNN/Power-flow-analysis">Power-flow-analysis</a><br>
-</li>
-<li><a href="https://github.com/TE9000-OPF-GNN/TE9000_OPF_GNN_book">TE9000_OPF_GNN_book</a></li>
-</ul>
+</div>
+<table class="card-other-values">
 
+<tbody><tr>
+<td>
+supervisor
+</td>
+<td class="supervisor">
+Dr.&nbsp;Francesc Solsona, Dr.&nbsp;Lluís M. Pla
+</td>
+</tr>
 
-</section>
+<tr>
+<td>
+status
+</td>
+<td class="status">
+Published
+</td>
+</tr>
 
-</main> <!-- /main -->
+</tbody></table>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -1,0 +1,52 @@
+---
+title: "Cloud systems and HPC as a service of agroindustry"
+description: "This thesis explores methods, mathematical models and algorithms for managing cloud systems cost-effectively."
+keywords: [High Performance Computing, Cloud Computing, Decision Support Systems, Agroindustry, Stochastic Programming, Parallel Computing, Optimization as a Service]
+image: "../../assets/images/research/thesis/jordi-mateo/front_thesis.png"
+pdf: https://www.tdx.cat/handle/10803/667343#page=1
+supervisor: "Dr. Francesc Solsona, Dr. Lluís M. Pla"
+author: "Jordi Mateo Fornés"
+date: 2019-03-29
+status: "Published"
+format: 
+  html:
+    theme: [light, dark]
+---
+
+**Summary**: This thesis analyses how to export and deliver this knowledge to society; in particular to the agribusiness field. The primary purpose is to assist decision-makers in their daily activity.  The main results of this thesis highlight the future guidelines to build smart decision support systems combining HPC, OR and cloud platforms. The outcomes corroborate the benefits of applying parallel computing to decomposition methods to deal with stochastic models. Moreover, the results show the advantages of mixing cloud platforms and optimisation field offering optimisation as a service to the overall community. Furthermore, the results demonstrate that considering uncertainty and stochastic programming costs can be reduced in agribusiness supply chains. Besides, the results show that cloud DSS's improve the decision-making process, overcoming the current barriers. It presents a cloud application to assist pig farmers in the optimal replacement of sows.
+
+**Supervisors**: Dr. Francesc Solsona, Dr. Lluís M. Pla
+
+
+## Abstract
+
+Cloud computing is a new paradigm that opens a flexible and financial attractive door for businessand consumers. In recent years, cloud services have reshaped the way business models are planned,saving costs and improving efficiency. There is an exponential growth of cloud solutions available in the public and private sector. This way, cloud services are based on a pay-per-use model, offering resources and service through the Internet.  Moreover, the cloud architectures provide many advantages concerning scalability, maintainability and massive data processing. High Performance Computing (HPC) decomposition methods and Operation Research (OR) models integration inside the cloud brings the opportunity to improve the performance and the quality of the cloud services. There are infinite opportunities and challenges for exploiting the capabilities of Decision Support Systems (DSS) inside the cloud. The agribusiness sector can significantly be boost by the consideration of these possibilities.
+
+## Methods
+
+Queuing theory and nonlinear programming were combined to model cloud architectures and to develop trade-off policies considering different metrics and ensuring a certain level of quality of service. OR decomposition methods (Benders Decomposition and Lagrangian Decomposition) are improved using HPC paradigms. Cloud services, OR methods and decision support systems are integrated to deliver knowledge from academia to society. Two-stage sStochastic programming was selected to enhance the decision-making process in the agribusiness field. Finally, two different agribusiness applications were designed, deployed and tested on a real cloud platform.
+
+## Results
+
+This thesis explores methods, mathematical models and algorithms for managing cloud systems cost-effectively.  Furthermore, this thesis analyses how to export and deliver this knowledge to society; in particular to the agribusiness field. The primary purpose is to assist decision-makers in their daily activity. The main results of this thesis highlight the future guidelines to build smart decision support systems combining HPC, OR  and cloud platforms. The outcomes corroborate the benefits of applying parallel computing to decomposition methods to deal with stochastic models. Moreover, the results show the advantages of mixing cloud platforms and optimisation field offering optimisation as a service to the overall community. Furthermore, the results demonstrate that considering uncertainty and stochastic programming costs can be reduced in agribusiness supply chains. Besides, the results show that cloud DSS's improve the decision-making process, overcoming the current barriers. It presents a cloud application to assist pig farmers in the optimal replacement of sows.
+
+## Conclusions
+
+Several cloud models and policies were analysed and implemented using different methods and techniques.
+The results yielded by this thesis provide strong evidence that parallel decomposition methods, such as Lagrangian Decomposition and Benders Decomposition can beat commercial solvers such as CPLEX when dealing with the optimal resolution of real-life stochastic instances. SPOS shows how to orchestrate cloud platforms to deliver knowledge as a service while integrating mathematical solvers in a cloud environment. In a more agroindustrial context, the stochastic model designed around the Chilean dried apple supply chain proof a cost reduction by considering uncertain up to a 6.4%. Finally, a cloud DSS was successfully developed and implemented to assist sow farmers. All the results extracted from this thesis are an essential seed for modelling a much bigger service, with great potential to become a reference in the design of cloud DSS  offering all users the possibility of solving any problem, even stochastic models, and also of obtaining detailed and custom results.
+
+## Sources
+
+::: {.center}
+::: {.columns}
+::: {.column style="text-align: center;"}
+[![Ph.D. Thesis (Jordi Mateo)](../../assets/images/research/thesis/jordi-mateo/front_thesis.png){width=150 height=200}](https://www.tesisenred.net/handle/10803/667343#page=1)
+
+:::
+::: {.column style="text-align: center;"}
+[![Ph.D. Slides (Jordi Mateo)](../../assets/images/research/thesis/jordi-mateo/front_slides.png){width=300 height=200}]()
+
+:::
+:::
+:::
+

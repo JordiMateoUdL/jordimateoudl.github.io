@@ -6,8 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jordi Mateo Fornés">
+<meta name="dcterms.date" content="2019-03-29">
+<meta name="keywords" content="High Performance Computing, Cloud Computing, Decision Support Systems, Agroindustry, Stochastic Programming, Parallel Computing, Optimization as a Service">
+<meta name="description" content="This thesis explores methods, mathematical models and algorithms for managing cloud systems cost-effectively.">
 
-<title>Research Lines – Mat4Jordi</title>
+<title>Cloud systems and HPC as a service of agroindustry – Mat4Jordi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +71,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-research-lines .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-research-lines'] = new List('listing-research-lines', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Mat4Jordi</span>
     </a>
   </div>
@@ -150,7 +94,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -159,11 +103,11 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="../research/research-lines.html">
+    <a class="dropdown-item" href="../../research/research-lines.html">
  <span class="dropdown-text">Research Lines</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../research/thesis.html">
+    <a class="dropdown-item" href="../../research/thesis.html">
  <span class="dropdown-text">Thesis</span></a>
   </li>  
     </ul>
@@ -179,64 +123,108 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Lines</h1>
+<h1 class="title">Cloud systems and HPC as a service of agroindustry</h1>
 </div>
 
+<div>
+  <div class="description">
+    This thesis explores methods, mathematical models and algorithms for managing cloud systems cost-effectively.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jordi Mateo Fornés </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 29, 2019</p>
+    </div>
+  </div>
   
     
   </div>
   
 
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>High Performance Computing, Cloud Computing, Decision Support Systems, Agroindustry, Stochastic Programming, Parallel Computing, Optimization as a Service</p>
+  </div>
+</div>
 
 </header>
 
 
+<p><strong>Summary</strong>: This thesis analyses how to export and deliver this knowledge to society; in particular to the agribusiness field. The primary purpose is to assist decision-makers in their daily activity. The main results of this thesis highlight the future guidelines to build smart decision support systems combining HPC, OR and cloud platforms. The outcomes corroborate the benefits of applying parallel computing to decomposition methods to deal with stochastic models. Moreover, the results show the advantages of mixing cloud platforms and optimisation field offering optimisation as a service to the overall community. Furthermore, the results demonstrate that considering uncertainty and stochastic programming costs can be reduced in agribusiness supply chains. Besides, the results show that cloud DSS’s improve the decision-making process, overcoming the current barriers. It presents a cloud application to assist pig farmers in the optimal replacement of sows.</p>
+<p><strong>Supervisors</strong>: Dr.&nbsp;Francesc Solsona, Dr.&nbsp;Lluís M. Pla</p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Cloud computing is a new paradigm that opens a flexible and financial attractive door for businessand consumers. In recent years, cloud services have reshaped the way business models are planned,saving costs and improving efficiency. There is an exponential growth of cloud solutions available in the public and private sector. This way, cloud services are based on a pay-per-use model, offering resources and service through the Internet. Moreover, the cloud architectures provide many advantages concerning scalability, maintainability and massive data processing. High Performance Computing (HPC) decomposition methods and Operation Research (OR) models integration inside the cloud brings the opportunity to improve the performance and the quality of the cloud services. There are infinite opportunities and challenges for exploiting the capabilities of Decision Support Systems (DSS) inside the cloud. The agribusiness sector can significantly be boost by the consideration of these possibilities.</p>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<p>Queuing theory and nonlinear programming were combined to model cloud architectures and to develop trade-off policies considering different metrics and ensuring a certain level of quality of service. OR decomposition methods (Benders Decomposition and Lagrangian Decomposition) are improved using HPC paradigms. Cloud services, OR methods and decision support systems are integrated to deliver knowledge from academia to society. Two-stage sStochastic programming was selected to enhance the decision-making process in the agribusiness field. Finally, two different agribusiness applications were designed, deployed and tested on a real cloud platform.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>This thesis explores methods, mathematical models and algorithms for managing cloud systems cost-effectively. Furthermore, this thesis analyses how to export and deliver this knowledge to society; in particular to the agribusiness field. The primary purpose is to assist decision-makers in their daily activity. The main results of this thesis highlight the future guidelines to build smart decision support systems combining HPC, OR and cloud platforms. The outcomes corroborate the benefits of applying parallel computing to decomposition methods to deal with stochastic models. Moreover, the results show the advantages of mixing cloud platforms and optimisation field offering optimisation as a service to the overall community. Furthermore, the results demonstrate that considering uncertainty and stochastic programming costs can be reduced in agribusiness supply chains. Besides, the results show that cloud DSS’s improve the decision-making process, overcoming the current barriers. It presents a cloud application to assist pig farmers in the optimal replacement of sows.</p>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>Several cloud models and policies were analysed and implemented using different methods and techniques. The results yielded by this thesis provide strong evidence that parallel decomposition methods, such as Lagrangian Decomposition and Benders Decomposition can beat commercial solvers such as CPLEX when dealing with the optimal resolution of real-life stochastic instances. SPOS shows how to orchestrate cloud platforms to deliver knowledge as a service while integrating mathematical solvers in a cloud environment. In a more agroindustrial context, the stochastic model designed around the Chilean dried apple supply chain proof a cost reduction by considering uncertain up to a 6.4%. Finally, a cloud DSS was successfully developed and implemented to assist sow farmers. All the results extracted from this thesis are an essential seed for modelling a much bigger service, with great potential to become a reference in the design of cloud DSS offering all users the possibility of solving any problem, even stochastic models, and also of obtaining detailed and custom results.</p>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<div class="center">
+<div class="columns">
+<div class="column" style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.tesisenred.net/handle/10803/667343#page=1"><img src="../../assets/images/research/thesis/jordi-mateo/front_thesis.png" width="150" height="200" class="figure-img"></a></p>
+<figcaption>Ph.D.&nbsp;Thesis (Jordi Mateo)</figcaption>
+</figure>
+</div>
+</div><div class="column" style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href=""><img src="../../assets/images/research/thesis/jordi-mateo/front_slides.png" width="300" height="200" class="figure-img"></a></p>
+<figcaption>Ph.D.&nbsp;Slides (Jordi Mateo)</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-research-lines">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Title
-</th>
-
-<th>
-Description
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-file-modified-sort="1748548214239" data-listing-reading-time-sort="4" data-listing-word-count-sort="755" data-listing-title-sort="Energy Informatics" data-listing-filename-sort="energy-informatics.qmd">
-<td>
-<a href="../research/lines/energy-informatics.html" class="title listing-title">Energy Informatics</a>
-</td>
-<td>
-<span class="listing-description">Research line on distributed computing and power systems engineering, focusing on resilience, scalability, and flexible markets.</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

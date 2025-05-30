@@ -7,46 +7,53 @@
     "text": "I’m Dr Jordi Mateo Fornés, a Lecturer in Computer Science at the University of Lleida (UdL), specializing in Cloud Architecture and Services. I hold a PhD in Cloud Computing, and my work explores methods, paradigms, and solutions for distributed computing environments. I earned my B.S. (2012) and M.S. (2013) in Computer Science from the Escola Politècnica Superior (EPS) at the Universitat de Lleida, where I continue to teach and conduct research.\nMy research spans various domains, including Distributed Systems (Cloud, Fog, Edge, IoT) and High-Performance Computing. Building on these foundational areas, my work also involves knowledge transfer to decision support systems and distributed intelligence in Healthcare, Agriculture, and Energy domains.\nIn my teaching role, I deliver undergraduate courses in Operating Systems and System Administration. These courses provide the theoretical underpinnings and practical competencies to understand and work with modern distributed computing environments. These courses form the backbone of all computing infrastructures, from embedded edge devices to large-scale cloud platforms. Advancements such as kernel optimisation, virtualisation, containerisation, and lightweight architectures are fundamental for achieving performance, scalability, or resilience in the distributed systems. Additionally, I supervise both undergraduate and master’s theses, assisting students in navigating their research projects and developing strong, practical skills in computer science.\nAs an advocate for open-source technologies, I actively promote their use in research and education. Through this blog, I share insights on emerging trends in computer science, along with reflections from my research, teaching, and professional experiences.\nThank you for visiting!"
   },
   {
-    "objectID": "research/energy-informatics.html",
-    "href": "research/energy-informatics.html",
-    "title": "Energy Informatics",
+    "objectID": "research/thesis/jordi-mateo.html",
+    "href": "research/thesis/jordi-mateo.html",
+    "title": "Cloud systems and HPC as a service of agroindustry",
     "section": "",
-    "text": "The electric power grid field is undergoing a profound transformation driven by two interconnected trends:\n\nIncreasing uncertainty, driven by the high penetration of intermittent renewable energy sources (RES), such as solar and wind.\nDecentralization of energy production, control, and decision-making, enabled by the adoption of distributed energy resources (DERs), battery storage systems, and electric vehicles (EVs).\n\nThese trends challenge traditional centralized grid paradigms, which are not suitable to handle the growing complexity, variability, and scale of modern power systems. As a result, there is a need for novel computational and architectural approaches that support real-time, scalable, and intelligent decision-making. Hence, this research line integrates distributed continuum computing with modern power systems engineering to address critical challenges in three interrelated areas:\n\nResilience: Ensuring robustness against unpredictable failures and maintaining operational continuity in the presence of uncertainty and volatility. The focus is on how continuum architectures can prevent or contain cascading failures in distributed power grids.\nScalability: Managing real-time coordination and optimization of millions of heterogeneous DERs and controllable loads. The research explores whether graph neural networks (GNNs) or physics-informed neural networks (PINNs) can provide faster, more scalable alternatives to traditional optimization solvers.\nFlexible markets: Adapting to rapidly changing grid conditions and enabling dynamic participation of consumers and prosumers in energy markets. The research aims to investigate what mechanisms are needed to support flexible, real-time electricity markets.\n\nThese pillars are not isolated; they form a mutually reinforcing foundation for a future grid that is resilient, scalable, and responsive. Hence, to support the development and validation of such architectures, the research also targets kernel- and middleware-level innovations for large-scale, distributed power system simulation. These tools will be essential for evaluating new algorithms, control schemes, and market mechanisms under realistic scenarios.\n\n\n\nEnergy Informatics Research Line"
+    "text": "Summary: This thesis analyses how to export and deliver this knowledge to society; in particular to the agribusiness field. The primary purpose is to assist decision-makers in their daily activity. The main results of this thesis highlight the future guidelines to build smart decision support systems combining HPC, OR and cloud platforms. The outcomes corroborate the benefits of applying parallel computing to decomposition methods to deal with stochastic models. Moreover, the results show the advantages of mixing cloud platforms and optimisation field offering optimisation as a service to the overall community. Furthermore, the results demonstrate that considering uncertainty and stochastic programming costs can be reduced in agribusiness supply chains. Besides, the results show that cloud DSS’s improve the decision-making process, overcoming the current barriers. It presents a cloud application to assist pig farmers in the optimal replacement of sows.\nSupervisors: Dr. Francesc Solsona, Dr. Lluís M. Pla"
   },
   {
-    "objectID": "research/energy-informatics.html#introduction-and-motivation",
-    "href": "research/energy-informatics.html#introduction-and-motivation",
-    "title": "Energy Informatics",
+    "objectID": "research/thesis/jordi-mateo.html#abstract",
+    "href": "research/thesis/jordi-mateo.html#abstract",
+    "title": "Cloud systems and HPC as a service of agroindustry",
+    "section": "Abstract",
+    "text": "Abstract\nCloud computing is a new paradigm that opens a flexible and financial attractive door for businessand consumers. In recent years, cloud services have reshaped the way business models are planned,saving costs and improving efficiency. There is an exponential growth of cloud solutions available in the public and private sector. This way, cloud services are based on a pay-per-use model, offering resources and service through the Internet. Moreover, the cloud architectures provide many advantages concerning scalability, maintainability and massive data processing. High Performance Computing (HPC) decomposition methods and Operation Research (OR) models integration inside the cloud brings the opportunity to improve the performance and the quality of the cloud services. There are infinite opportunities and challenges for exploiting the capabilities of Decision Support Systems (DSS) inside the cloud. The agribusiness sector can significantly be boost by the consideration of these possibilities."
+  },
+  {
+    "objectID": "research/thesis/jordi-mateo.html#methods",
+    "href": "research/thesis/jordi-mateo.html#methods",
+    "title": "Cloud systems and HPC as a service of agroindustry",
+    "section": "Methods",
+    "text": "Methods\nQueuing theory and nonlinear programming were combined to model cloud architectures and to develop trade-off policies considering different metrics and ensuring a certain level of quality of service. OR decomposition methods (Benders Decomposition and Lagrangian Decomposition) are improved using HPC paradigms. Cloud services, OR methods and decision support systems are integrated to deliver knowledge from academia to society. Two-stage sStochastic programming was selected to enhance the decision-making process in the agribusiness field. Finally, two different agribusiness applications were designed, deployed and tested on a real cloud platform."
+  },
+  {
+    "objectID": "research/thesis/jordi-mateo.html#results",
+    "href": "research/thesis/jordi-mateo.html#results",
+    "title": "Cloud systems and HPC as a service of agroindustry",
+    "section": "Results",
+    "text": "Results\nThis thesis explores methods, mathematical models and algorithms for managing cloud systems cost-effectively. Furthermore, this thesis analyses how to export and deliver this knowledge to society; in particular to the agribusiness field. The primary purpose is to assist decision-makers in their daily activity. The main results of this thesis highlight the future guidelines to build smart decision support systems combining HPC, OR and cloud platforms. The outcomes corroborate the benefits of applying parallel computing to decomposition methods to deal with stochastic models. Moreover, the results show the advantages of mixing cloud platforms and optimisation field offering optimisation as a service to the overall community. Furthermore, the results demonstrate that considering uncertainty and stochastic programming costs can be reduced in agribusiness supply chains. Besides, the results show that cloud DSS’s improve the decision-making process, overcoming the current barriers. It presents a cloud application to assist pig farmers in the optimal replacement of sows."
+  },
+  {
+    "objectID": "research/thesis/jordi-mateo.html#conclusions",
+    "href": "research/thesis/jordi-mateo.html#conclusions",
+    "title": "Cloud systems and HPC as a service of agroindustry",
+    "section": "Conclusions",
+    "text": "Conclusions\nSeveral cloud models and policies were analysed and implemented using different methods and techniques. The results yielded by this thesis provide strong evidence that parallel decomposition methods, such as Lagrangian Decomposition and Benders Decomposition can beat commercial solvers such as CPLEX when dealing with the optimal resolution of real-life stochastic instances. SPOS shows how to orchestrate cloud platforms to deliver knowledge as a service while integrating mathematical solvers in a cloud environment. In a more agroindustrial context, the stochastic model designed around the Chilean dried apple supply chain proof a cost reduction by considering uncertain up to a 6.4%. Finally, a cloud DSS was successfully developed and implemented to assist sow farmers. All the results extracted from this thesis are an essential seed for modelling a much bigger service, with great potential to become a reference in the design of cloud DSS offering all users the possibility of solving any problem, even stochastic models, and also of obtaining detailed and custom results."
+  },
+  {
+    "objectID": "research/thesis/jordi-mateo.html#sources",
+    "href": "research/thesis/jordi-mateo.html#sources",
+    "title": "Cloud systems and HPC as a service of agroindustry",
+    "section": "Sources",
+    "text": "Sources\n\n\n\n\n\n\nPh.D. Thesis (Jordi Mateo)\n\n\n\n\n\n\nPh.D. Slides (Jordi Mateo)"
+  },
+  {
+    "objectID": "research/thesis.html",
+    "href": "research/thesis.html",
+    "title": "Thesis",
     "section": "",
-    "text": "The electric power grid field is undergoing a profound transformation driven by two interconnected trends:\n\nIncreasing uncertainty, driven by the high penetration of intermittent renewable energy sources (RES), such as solar and wind.\nDecentralization of energy production, control, and decision-making, enabled by the adoption of distributed energy resources (DERs), battery storage systems, and electric vehicles (EVs).\n\nThese trends challenge traditional centralized grid paradigms, which are not suitable to handle the growing complexity, variability, and scale of modern power systems. As a result, there is a need for novel computational and architectural approaches that support real-time, scalable, and intelligent decision-making. Hence, this research line integrates distributed continuum computing with modern power systems engineering to address critical challenges in three interrelated areas:\n\nResilience: Ensuring robustness against unpredictable failures and maintaining operational continuity in the presence of uncertainty and volatility. The focus is on how continuum architectures can prevent or contain cascading failures in distributed power grids.\nScalability: Managing real-time coordination and optimization of millions of heterogeneous DERs and controllable loads. The research explores whether graph neural networks (GNNs) or physics-informed neural networks (PINNs) can provide faster, more scalable alternatives to traditional optimization solvers.\nFlexible markets: Adapting to rapidly changing grid conditions and enabling dynamic participation of consumers and prosumers in energy markets. The research aims to investigate what mechanisms are needed to support flexible, real-time electricity markets.\n\nThese pillars are not isolated; they form a mutually reinforcing foundation for a future grid that is resilient, scalable, and responsive. Hence, to support the development and validation of such architectures, the research also targets kernel- and middleware-level innovations for large-scale, distributed power system simulation. These tools will be essential for evaluating new algorithms, control schemes, and market mechanisms under realistic scenarios.\n\n\n\nEnergy Informatics Research Line"
-  },
-  {
-    "objectID": "research/energy-informatics.html#team",
-    "href": "research/energy-informatics.html#team",
-    "title": "Energy Informatics",
-    "section": "Team",
-    "text": "Team\nThe research line is coordinated by the Distributed Computing Research Group at the University of Lleida (UdL) in Spain, in collaboration with the University of South-Eastern Norway (USN). The team includes:\n\nDr. Sambeet Mishra (USN) - Expert in power systems.\nDr. Jordi Mateo (UdL) - Specialist in distributed computing."
-  },
-  {
-    "objectID": "research/energy-informatics.html#activities-collaborations",
-    "href": "research/energy-informatics.html#activities-collaborations",
-    "title": "Energy Informatics",
-    "section": "Activities & Collaborations",
-    "text": "Activities & Collaborations\nThere is an established inter-disciplinary collaboration between the research groups, members of the groups including PhD candidates for mobility, research visits and joint national and international projects.\n\nFinalised Projects\n\nP-CoMG: Parallel Decision Support for Power Networks. This was a TFG (Final Degree Project) at the University of Lleida (UdL) in the Distributed Computing Research Group, supervised by Dr. Sambeet Mishra from the University of South-Eastern Norway (USN) and Dr. Jordi Mateo from UdL. The project focused on developing a new parallel decision support system to assist decisions in power networks.\n\n\n\nResearch Visits\n\nSergi Lopez, a Lecturer from the University of Lleida (UdL) and member of the Distributed Computing Research Group, visited the University of South-Eastern Norway (USN) for a period of 3 months during his PhD studies in summer 2024. The aim of the visit was to develop oracles for bid validation in local energy markets using various consensus mechanisms. His works includes a comparative study of public-private cross-chain consensus strategies between Local Energy Markets (LEMs) and Distribution System Operators (DSOs).\n\n\n\nOngoing Projects\n\nGraph Neural Networks (GNNs) for Power Systems. This thesis project, focuses on developing GNNs to replace traditional power flow solvers. The goal is to create a model that can learn from historical data and adapt to dynamic conditions, providing accurate and real-time predictions for power flow analysis.\n\n\n\nOpen Research Projects\n\nDynamic Time Aggregation for Optimal Expansion Planning Problems in Power Systems. This project aims to develop methods for dynamic time aggregation to optimize expansion planning in power systems, addressing the challenges posed by increasing uncertainty and decentralization.\nSpatio-temporal Mapping of City Dynamics and Data Analytics of Energy Consumption, Weather, and Transportation. This project focuses on analyzing the interplay between urban dynamics, energy consumption patterns, weather conditions, and transportation systems to inform better decision-making in energy management.\n\n\n\nWorkshops and Seminars\n\n2025 University of Lleida (UdL) Workshop on Distributed Computing and Power Systems: Workshop between the Distributed Computing Research Group at UdL and the University of South-Eastern Norway (USN) to discuss ongoing research, share findings, and explore future collaborations in distributed computing and power systems. The workshop was held in Lleida, Spain, on January 2025."
-  },
-  {
-    "objectID": "research/energy-informatics.html#background-publications",
-    "href": "research/energy-informatics.html#background-publications",
-    "title": "Energy Informatics",
-    "section": "Background & Publications",
-    "text": "Background & Publications\n\nMishra, S., et al. (2022). Smart contract formation enabling energy-as-a-service in a virtual power plant. Int. J. Energy Research, 46(3), 3272–3294.\n\nMishra, S., et al. (2019). Reliability framework for power network assessment."
-  },
-  {
-    "objectID": "research/energy-informatics.html#github-repositories",
-    "href": "research/energy-informatics.html#github-repositories",
-    "title": "Energy Informatics",
-    "section": "Github Repositories",
-    "text": "Github Repositories\n\nGraph-Neural-Network\n\nPower-flow-analysis\n\nTE9000_OPF_GNN_book"
+    "text": "Cloud systems and HPC as a service of agroindustry\n\n\n\nJordi Mateo Fornés\n\n\n\n\n\n\nsupervisor\n\n\nDr. Francesc Solsona, Dr. Lluís M. Pla\n\n\n\n\n\nstatus\n\n\nPublished\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research/research-lines.html",

@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/research/thesis.html",
+    "items": [
+      "/research/thesis/jordi-mateo.html"
+    ]
+  },
+  {
     "listing": "/research/research-lines.html",
     "items": [
       "/research/lines/energy-informatics.html"
