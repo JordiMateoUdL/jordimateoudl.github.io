@@ -3,7 +3,7 @@ title: Thesis
 listing:
   - id: thesis
     contents: "./thesis/*.qmd" 
-    type: grid
+    type: table
     fields: [title, author, supervisor, status, image]
     sort-ui: false
     filter-ui: false

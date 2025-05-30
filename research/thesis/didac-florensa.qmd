@@ -1,0 +1,48 @@
+---
+title: "Machine Learning Approaches for Comprehensive Analysis of Population Cancer Registry Data"
+description: "This thesis integrates risk factor and medication prescription databases and employs a cloud-based decision support system (DSS) that utilizes population-based cancer registry data to assess the current state of cancer in Lleida."
+keywords: [Population-based cancer registry, Cloud computing, Artificial intelligence, Registro poblacional de cáncer, Computación a la nube, Inteligencia artificial, Population-based cancer registry, Cloud computing, Artificial intelligence]
+image: "../../assets/images/research/thesis/didac-florensa/front_thesis.jpg"
+pdf: https://www.tesisenred.net/handle/10803/688298#page=1
+supervisor: "Dr. Pere Godoy, Dr. Francesc Solsona, Dr. Jordi Mateo"
+author: "Dídac Florensa Cazorla"
+date: 2023-04-19
+status: "Published"
+format: 
+  html:
+    theme: [light, dark]
+---
+
+**Supervisors**: Dr. Pere Godoy, Dr. Francesc Solsona, Dr. Jordi Mateo
+
+**Industrial Supervisor**: Sr. Miquel Mesas Julió
+
+## Background
+
+Population-based cancer registries are crucial for controlling and studying cancer incidence, mortality, and survival. These systems focus on collecting new cancer cases and analyzing their impact in a specific region. In addition, exploring external information sources to complement the data registry allows for the identification of search patterns and correlations in each specific region. This thesis focuses on integrating some databases, such as risk factors and prescription medicines, cloud computing and artificial intelligence (AI). This is a term that has been present in the business and social sectors over the last few years. The capacity of artificial intelligence to learn, simulating the human brain, has permitted the automation of the process and decreased the time required. This technique is characterised by an algorithm training process to then decide what the machine has learned. Artificial intelligence algorithms have opened new ways for the analysis, detection, prediction and pattern search of cancer which are explored in this thesis.
+
+## Methods
+
+Cloud computing and decision support system were used to implement a web-platform to show the cancer incidence in a specific region (Lleida). Non-supervised machine learning algorithms were used as a tool for detecting patterns of cancer by the different lifestyles of cancer patients. The Multiple Correspondence Analysis algorithm was trained to detect cancer patterns for the most frequent cancers. K-means was implemented for cancer detection among cases of colorectal cancer. Next, epidemiological studies were employed to ensure the validity of the external databases by assessing the association of some risk factors with the occurrence of a second cancer. Additionally, the protective effect of aspirin against certain types of cancer was analyzed, while accounting for relevant risk factors.
+
+## Results
+
+This thesis explores cloud computing methods and artificial intelligence algorithms for pattern detection. It also explores in depth how some risk factors increase the risk of cancer and other functionalities, such as estimates the risk of developing secondary primary cancer. Finally, this thesis explores how to export this knowledge to society through cutting-edge technology. The main outcomes of this thesis highlight a cloud application to assist population cancer registries in analysing cancer incidence and mortality and the use of machine learning algorithms to detect patterns and associations of the factors that may increase the risk of cancer. In this exploration, we have discovered a strong association between colorectal cancer and individuals living in rural populations. However, lung cancer is more common among those living in urban areas. On the other hand, our analysis of the risk of developing secondary primary cancer revealed that certain risk factors, such as smoking and heavy alcohol use, significantly increase the likelihood of developing such cancers. Finally, the results show the protective effect of aspirin against some tumours, taking into account such risk factors as smoking or heavy alcohol use or excess weight.
+
+## Conclusions
+This thesis integrates risk factor and medication prescription databases and employs a cloud-based decision support system (DSS) that utilizes population-based cancer registry data to assess the current state of cancer in Lleida. We also analyse and implement various machine learning algorithms,especially non-supervised. The outcomes provide solid evidence that these nonsupervised algorithms can search for patternsamong cancer patients. In addition,they also help to detect possible associations, which is interesting for the healthsector. In a health context, this thesis demonstrates an association betweensmoking and heavy alcohol use with the risk of second primary cancer, especiallyamong men. It also corroborated that aspirin use decreases the risk of somespecific cancers, taking risk factors into account. The results obtained in thisthesis are an essential seed to continue exploring other methods and algorithms,with a high potential to become a reference in the use of artificial intelligence in the epidemiological cancer sector.
+
+## Sources
+
+::: {.center}
+::: {.columns}
+::: {.column style="text-align: center;"}
+[![Ph.D. Thesis (Dídac Florensa)](../../assets/images/research/thesis/didac-florensa/front_thesis.jpg){width=150 height=200}](https://www.tesisenred.net/handle/10803/688298#page=1)
+
+:::
+::: {.column style="text-align: center;"}
+[![Ph.D. Slides (Dídac Florensa)](../../assets/images/research/thesis/didac-florensa/front_slides.png){width=300 height=200}](/assets/images/research/thesis/didac-florensa/slides.pdf)
+
+:::
+:::
+:::

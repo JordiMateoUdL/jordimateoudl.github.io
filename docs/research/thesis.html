@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-supervisor','listing-status','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-supervisor','listing-status','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -206,48 +206,75 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-thesis">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1553814000000" data-listing-file-modified-sort="1748601403819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="707">
-<a href="../research/thesis/jordi-mateo.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../assets/images/research/thesis/jordi-mateo/front_thesis.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cloud systems and HPC as a service of agroindustry
-</h5>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Jordi Mateo Fornés
-</div>
-</div>
-<table class="card-other-values">
-
-<tbody><tr>
-<td>
-supervisor
-</td>
-<td class="supervisor">
-Dr.&nbsp;Francesc Solsona, Dr.&nbsp;Lluís M. Pla
-</td>
-</tr>
-
+<div class="quarto-listing quarto-listing-container-table" id="listing-thesis">
+<table class="quarto-listing-table table">
+<thead>
 <tr>
-<td>
+
+<th>
+Title
+</th>
+
+<th>
+Author
+</th>
+
+<th>
+supervisor
+</th>
+
+<th>
 status
+</th>
+
+<th>
+ 
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-date-sort="1553814000000" data-listing-file-modified-sort="1748601403819" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="707" data-listing-title-sort="Cloud systems and HPC as a service of agroindustry" data-listing-filename-sort="jordi-mateo.qmd">
+<td>
+<a href="../research/thesis/jordi-mateo.html" class="title listing-title">Cloud systems and HPC as a service of agroindustry</a>
 </td>
-<td class="status">
-Published
+<td>
+<span class="listing-author">Jordi Mateo Fornés</span>
 </td>
+<td>
+<span class="listing-supervisor">Dr.&nbsp;Francesc Solsona, Dr.&nbsp;Lluís M. Pla</span>
+</td>
+<td>
+<span class="listing-status">Published</span>
+</td>
+<td>
+<span class="listing-image"><img loading="lazy" src="../assets/images/research/thesis/jordi-mateo/front_thesis.png" style="height: 40px;"></span>
+</td>
+
 </tr>
 
-</tbody></table>
-</div>
-</div></a>
-</div>
-</div>
+<tr data-index="1" data-listing-date-sort="1681855200000" data-listing-file-modified-sort="1748613484572" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="637" data-listing-title-sort="Machine Learning Approaches for Comprehensive Analysis of Population Cancer Registry Data" data-listing-filename-sort="didac-florensa.qmd">
+<td>
+<a href="../research/thesis/didac-florensa.html" class="title listing-title">Machine Learning Approaches for Comprehensive Analysis of Population Cancer Registry Data</a>
+</td>
+<td>
+<span class="listing-author">Dídac Florensa Cazorla</span>
+</td>
+<td>
+<span class="listing-supervisor">Dr.&nbsp;Pere Godoy, Dr.&nbsp;Francesc Solsona, Dr.&nbsp;Jordi Mateo</span>
+</td>
+<td>
+<span class="listing-status">Published</span>
+</td>
+<td>
+<span class="listing-image"><img loading="lazy" src="../assets/images/research/thesis/didac-florensa/front_thesis.jpg" style="height: 40px;"></span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
