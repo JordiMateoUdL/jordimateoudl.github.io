@@ -5,6 +5,10 @@ keywords: [energy informatics, distributed computing, power systems, resilience,
 image: "../../assets/images/research/energy-informatics/context.png"
 ---
 
+## Need for Power?
+
+![Synergies Between Computer Science and Power Systems: Foundations for Energy Informatics](../../assets/images/research/energy-informatics/ga.png)
+
 ## Introduction and Motivation
 
 The electric power grid field is undergoing a profound transformation driven by two interconnected trends:
@@ -22,7 +26,7 @@ These trends challenge traditional centralized grid paradigms, which are not sui
 
 These pillars are not **isolated**; they form a mutually reinforcing foundation for a future grid that is **resilient**, **scalable**, and  **responsive**. Hence, to support the development and validation of such architectures, the research also targets *kernel- and middleware-level innovations* for large-scale, distributed power system simulation. These tools will be essential for evaluating new algorithms, control schemes, and market mechanisms under realistic scenarios.
 
-![Energy Informatics Research Line](../../assets/images/research/energy-informatics/context.png)
+![Challenges and Emerging Trends in Energy Informatics Across the Cloud Continuum](../../assets/images/research/energy-informatics/context.png)
 
 ## Team
 The research line is coordinated by the **Distributed Computing Research Group** at the University of Lleida (UdL) in Spain, in collaboration with the **University of South-Eastern Norway (USN)**. The team includes:
@@ -36,7 +40,35 @@ There is an established inter-disciplinary collaboration between the research gr
 
 ### Finalised Projects
 
-- **P-CoMG: Parallel Decision Support for Power Networks**. This was a TFG (Final Degree Project) at the University of Lleida (UdL) in the Distributed Computing Research Group, supervised by Dr. Sambeet Mishra from the University of South-Eastern Norway (USN) and Dr. Jordi Mateo from UdL. The project focused on developing a new parallel decision support system to assist decisions in power networks.
+#### Coordination of Microgrid Expansion Planning
+
+This project focuses on the optimal expansion planning of microgrids under uncertainty, using a multi-agent system approach. The goal is to develop a decision support system that can efficiently coordinate the expansion of microgrids while considering uncertainties in demand and generation.
+
+::: {.columns}
+
+::: {.column}
+
+[![**P-CoMG: Parallel Decision Support for Power Networks**. This was a TFG (Final Degree Project) at the University of Lleida (UdL) in the Distributed Computing Research Group, supervised by Dr. Sambeet Mishra from the University of South-Eastern Norway (USN) and Dr. Jordi Mateo from UdL. The project focused on developing a new parallel decision support system to assist decisions in power networks](../../assets/images/research/energy-informatics/papers/PComG.png){width=150 height=200}](https://repositori.udl.cat/items/608a9134-c249-489a-bd70-d11b592cd237)
+
+
+:::
+::: {.column style="text-align: center;"}
+
+[![A multi-agent system approach for optimal microgrid expansion planning under uncertainty](../../assets/images/research/energy-informatics/papers/ComG.png){width=150 height=200}](https://www.sciencedirect.com/science/article/abs/pii/S0142061518327947)
+
+:::
+:::
+
+#### Energy-as-a-Service (EaaS)
+
+This work examines the organization of microgrids within a local energy market, requiring a framework for efficient decentralized energy operation and system resilience. One practical approach is forming Virtual Power Plants (VPPs), which consolidate distributed generation and storage into a single unit. Smart contracts on blockchain enable automated transactions without central oversight but face challenges due to incomplete supply and demand information.
+
+::: {.columns}
+::: {.column style="text-align: center;"}
+[![Smart contract formation enabling energy-as-a-service in a virtual power plant](../../assets/images/research/energy-informatics/papers/smart-contract-vpp.png){width=150 height=200}](https://onlinelibrary.wiley.com/doi/full/10.1002/er.7381)
+:::
+:::
+
 
 ### Research Visits
 
@@ -44,14 +76,17 @@ There is an established inter-disciplinary collaboration between the research gr
 
 ### Ongoing Projects
 
-- **Graph Neural Networks (GNNs) for Power Systems**. This thesis project, focuses on developing GNNs to replace traditional power flow solvers. The goal is to create a model that can learn from historical data and adapt to dynamic conditions, providing accurate and real-time predictions for power flow analysis. 
+#### Graph Neural Networks (GNNs) for Power Systems
 
+This project explores the application of GNNs to model power flow in electrical networks. By learning from historical grid data, GNNs can replace conventional solvers, offering faster and more scalable real-time predictions. The research aims to improve adaptability under dynamic grid conditions and support the transition to smarter, data-driven power system operations.
 
-### Open Research Projects
+#### Knowledge Graphs for Power Systems
 
-- **Dynamic Time Aggregation for Optimal Expansion Planning Problems in Power Systems**. This project aims to develop methods for dynamic time aggregation to optimize expansion planning in power systems, addressing the challenges posed by increasing uncertainty and decentralization.
-  
-- **Spatio-temporal Mapping of City Dynamics and Data Analytics of Energy Consumption, Weather, and Transportation**. This project focuses on analyzing the interplay between urban dynamics, energy consumption patterns, weather conditions, and transportation systems to inform better decision-making in energy management.
+We are designing domain-specific knowledge graphs to structure heterogeneous information from the energy domain, such as asset metadata, grid topology, and operational data. These graphs enable advanced reasoning, fault diagnosis, and decision support through semantic enrichment and inference, laying the foundation for explainable AI in power system management.
+
+#### Cloud Continuum for Power Systems
+
+This initiative investigates distributed intelligence across cloud, fog, and edge layers to support scalable energy management. The focus is on orchestrating real-time decision-making across a cloud continuum using Edge AI and TinyML. The project focuses on system resilience and latency-aware control, which are critical for integrating renewable energy and decentralized resources.
 
 ### Workshops and Seminars
 
